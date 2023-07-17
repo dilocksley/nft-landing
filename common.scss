@@ -1,0 +1,47 @@
+$button-font: 'Poppins';
+$main-font: 'Inter';
+$accent-color: #40AFFD;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #160E2A;
+    font-family: $main-font;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    height: 25.135px;
+    flex-shrink: 0;
+    border-radius: 2.992px;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(2.9922103881835938px);
+    border: 1.2px solid $accent-color; 
+    font-family: $button-font;
+    text-decoration: none;
+    color: #FFF;
+}
+
+header {
+    padding: 9.57px 35.91px 10.17px 25.13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px pink;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+
+.nav-link {
+    color: #FFF;
+    text-decoration: none;
+}
