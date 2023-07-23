@@ -40,4 +40,12 @@ nav {
 .nav-link {
   color: #FFF;
   text-decoration: none;
+  text-transform: capitalize;
+}
+
+.container {
+  color: white;
+  max-width: 1282px;
+  margin: 0 auto;
+  padding: 115px 0;
 }/*# sourceMappingURL=common.css.map */

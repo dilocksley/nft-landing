@@ -40,4 +40,62 @@ nav {
 .nav-link {
   color: #FFF;
   text-decoration: none;
+  text-transform: capitalize;
+}
+
+.container {
+  color: white;
+  max-width: 1282px;
+  margin: 0 auto;
+  padding: 115px 0;
+}
+
+#hand {
+  display: flex;
+  gap: 95px;
+}
+#hand h1 {
+  font-weight: 500;
+  line-height: normal;
+  font-size: 72px;
+  font-family: Inter;
+  font-style: normal;
+  color: #E6B9FF;
+  margin-bottom: 64px;
+}
+#hand p {
+  margin-bottom: 60px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25.6px;
+}
+#hand a {
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+  letter-spacing: 0.3px;
+}
+#hand .instruction {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#hand .hand-action {
+  margin-left: 32px;
+}
+#hand .hand-image {
+  margin-top: -107px;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
