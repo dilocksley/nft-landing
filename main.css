@@ -8,6 +8,16 @@ body {
   font-family: "Inter";
 }
 
+header > .button {
+  margin-left: 184px;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button {
   display: flex;
   align-items: center;
@@ -17,18 +27,17 @@ body {
   background: rgba(0, 0, 0, 0.4);
   -webkit-backdrop-filter: blur(2.9922103882px);
           backdrop-filter: blur(2.9922103882px);
-  border: 1.2px solid #40AFFD;
   font-family: "Poppins";
   text-decoration: none;
   color: #FFF;
 }
 
 header {
-  padding: 9.57px 35.91px 10.17px 25.13px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid 1px pink;
+  position: relative;
 }
 
 nav {
@@ -46,7 +55,7 @@ nav {
 .container {
   color: white;
   max-width: 1282px;
-  margin: 0 auto;
+  margin: 0 0 0 79px;
   padding: 115px 0;
 }
 
@@ -58,7 +67,7 @@ nav {
   font-weight: 500;
   line-height: normal;
   font-size: 72px;
-  font-family: Inter;
+  font-family: "Jura", sans-serif;
   font-style: normal;
   color: #E6B9FF;
   margin-bottom: 64px;
@@ -73,7 +82,6 @@ nav {
   line-height: 25.6px;
 }
 #hand a {
-  margin-bottom: 16px;
   text-decoration: none;
   color: #FFF;
   font-family: Poppins;
@@ -84,6 +92,7 @@ nav {
   letter-spacing: 0.3px;
 }
 #hand .instruction {
+  margin-top: 16px;
   color: #FFF;
   font-family: Poppins;
   font-size: 14px;
@@ -92,7 +101,8 @@ nav {
   line-height: normal;
 }
 #hand .hand-action {
-  margin-left: 32px;
+  display: flex;
+  margin-left: -33px;
 }
 #hand .hand-image {
   margin-top: -107px;
